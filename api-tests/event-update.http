@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/5
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImV4YW1wbGUzQGV4YW1wbGUuY29tIiwiZXhwIjoxNzA0MjM1NzQ3LCJ1c2VySWQiOjN9.wI5D8wI_VyjNnRZEvBtWk8YJyP1WLy0SdggG9ztE-DQ
+
+{
+  "name": "test event upd 333",
+  "description": "test desc",
+  "location": "test location",
+  "dateTime": "2024-01-01T15:30:00.000Z"
+}
